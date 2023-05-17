@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#FFE4CA;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    font-size: 35px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    text-align: start;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+nav ul li a:hover {
+    background-color: rgb(0, 123, 255)
+}
+
+
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem {
+    width: 48%;
+    
+}
+
+.caixa {
+    text-align: left;
+}
+
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px; 
+    font-size: 26px;
+    padding: 15px 0;
+}
+
+.escola-imagem {
+    width: 21%
+}
+
+.escola {
+    background-image: linear-gradient(#424E61, #4EBFE9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-titulo {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.escola--texto-um {
+    font-size: 25px;
+}
+
+.escola-texto-dois {
+    font-size: 25px;
+}
+
+.sobre-nos {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 250%;
+ } 
+
+ .sobre-a-escola {
+    text-align: center;
+    font-size: 160%;
+}
+
+.dois {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 160%;
+}
+
+.imagem-div {
+    text-align: center;
+}
+
+.atividades {
+    text-align: center;
+     padding: 50px 0;
+     font-size: 35px;
+}
+
+.assunto {
+    text-align: center;
+     padding: 50px 0;
+     font-size: 25px;
+}
+
+.btn {
+    border-radius: 40px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.btn--primary {
+    background: dodgerblue;
+    color: white;
+}
+
+.btn--primary:hover {
+    background-color: rgb(9, 12, 209); 
+}
+
+.btn--primary {
+    width: 100%;
+    display: inline-block;
+}
+
+.aulas {
+    text-align: center;
+    padding: 10px;
+    font-size: 170%;
+    font-style: unset;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px opx 3px 0px rgba(0,0,0,0.2);
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text {
+    font-family: 'Comfortaa', cursive;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.leia {
+    width: 130px;
+}
+
+.redacao {
+    width: 130px;
+}
+
+.ingles {
+    width: 100px;
+}
+
+.quiz {
+    width: 85px;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+.edutech {
+    width: 150px;
+}
+
+.khan {
+    width: 135px;
+}
+
+.sites {
+    text-align: center;
+    font-size: 35px;
+}
+
+.depoimentos {
+    text-align: center;
+    font-size: 35px;
+    padding: 50px 0;
+}
+
+footer {
+    background-image: linear-gradient(#424E61, #4EBFE9);
+    background-color: #3d267e;
+    padding: 10px;
+    text-align: center;
+}
+
+.rodape{
+    width: 7%;
+}
+
+.rodape-dois {
+    color:bisque;
+    font-size: 12px;
+}
+
+
+

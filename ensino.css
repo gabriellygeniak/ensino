@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#FFE4CA;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    font-size: 35px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    text-align: start;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+nav ul li a:hover {
+    background-color: rgb(0, 123, 255)
+}
+
+
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem {
+    width: 48%;
+    
+}
+
+.caixa {
+    text-align: left;
+}
+
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px; 
+    font-size: 26px;
+    padding: 15px 0;
+}
+
+.escola-imagem {
+    width: 21%
+}
+
+.escola {
+    background-image: linear-gradient(#424E61, #4EBFE9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-titulo {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.aulas {
+    text-align: center;
+    padding: 10px;
+    font-size: 170%;
+    font-style: unset;
+}
+
+.aulas {
+    text-align: center;
+    padding: 10px;
+    font-size: 170%;
+    font-style: unset;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.imagem-biblioteca {
+    padding: 20px 0;
+}
