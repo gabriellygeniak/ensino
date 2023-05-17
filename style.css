@@ -148,12 +148,13 @@ nav ul li a:hover {
 }
 
 .btn--primary {
-    background: dodgerblue;
+    background: rgb(76, 78, 219); 
     color: white;
 }
 
 .btn--primary:hover {
-    background-color: rgb(9, 12, 209); 
+    background: dodgerblue; 
+    
 }
 
 .btn--primary {
@@ -252,5 +253,14 @@ footer {
     font-size: 12px;
 }
 
+.title-section {
+    text-align: center;
+    font-size: 230%;
+}
+
+.owl-carousel {
+    align-items: center;
+    justify-content: space-between;
+}
 
 

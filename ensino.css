@@ -117,3 +117,15 @@ nav ul li a:hover {
 .imagem-biblioteca {
     padding: 20px 0;
 }
+
+.sobre {
+    padding: 20px 0;
+}
+
+.violao {
+    text-align: center;
+    padding: 10px;
+    font-size: 170%;
+    font-style: unset;
+}
+

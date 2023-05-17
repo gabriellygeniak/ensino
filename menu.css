@@ -98,6 +98,7 @@ nav ul li a:hover {
     text-align: center;
     margin-top: 20px;
     padding: 20px 0;
+    font-size: 20px;
 }
 
 .imagem-biblioteca {
@@ -106,11 +107,15 @@ nav ul li a:hover {
 
 .livros {
     width: 300px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 0;
 }
 
 .container-um {
     display: flex;
     align-items: center;
+    border-radius: 10px;
 }
 
 .texto-biblioteca {
@@ -125,6 +130,7 @@ nav ul li a:hover {
     text-align: center;
     font-size: 110%;
     padding: 20px 0;
+    font-style: italic;
 }
 
 .sobre-um {
@@ -138,22 +144,26 @@ nav ul li a:hover {
 
 .toldo {
     width: 300px;
+    border-radius: 10px;
 }
 
 .container-dois {
     display: flex;
     align-items: center;
+    padding: 20px 0;
 }
 
 .sobre-toldo {
     padding-left: 20px 0;
     text-align: center;
+    width: 100%;
+    border-radius: 10px;
 }
 
 footer {
     background-image: linear-gradient(#424E61, #4EBFE9);
     background-color: #3d267e;
-    padding: 10px;
+    padding: 10px 0;
     text-align: center;
 }
 
@@ -164,4 +174,46 @@ footer {
 .rodape-dois {
     color:bisque;
     font-size: 12px;
+}
+
+.sobre .container-tres {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-sobre {
+    width: 50%;
+    padding-right: 40px;
+}
+
+.text-sobre p {
+    margin: 18px 0;
+    color: #000000a6
+}
+
+.sobre-img {
+    width: 50%;
+}
+
+.sobre-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sala {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.container-cinco {
+    display: flex;
+    align-items: center;
+}
+
+.sobre-sala {
+    padding-left: 20px 0;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
 }

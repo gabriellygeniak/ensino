@@ -94,21 +94,64 @@ nav ul li a:hover {
     font-style: italic;
 }
 
-.aulas-div {
-    text-align: center;
-    margin-top: 20px;
-    padding: 20px 0;
+.escola--texto-um {
+    font-size: 25px;
 }
 
-.aulas-um {
+.escola-texto-dois {
+    font-size: 25px;
+}
+
+.sobre-nos {
     text-align: center;
     padding: 50px 0;
     font-size: 250%;
-}
-    
+ } 
 
-.ballet {
+ .sobre-a-escola {
     text-align: center;
-    margin-top: 20px;
-    padding: 20px 0;
+    font-size: 160%;
 }
+
+.dois {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 160%;
+}
+
+.imagem-div {
+    text-align: center;
+}
+
+.atividades {
+    text-align: center;
+     padding: 50px 0;
+     font-size: 35px;
+}
+
+.assunto {
+    text-align: center;
+     padding: 50px 0;
+     font-size: 25px;
+}
+
+.extracurricular {
+    width: 0%;
+    border-radius: 10px;
+}
+
+.container {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.imagem-aula {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.texto-biblioteca p {
+    font-size: 400%;
+    font-style: italic;
+}
+
